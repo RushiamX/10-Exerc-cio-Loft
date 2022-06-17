@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:  #E5E5E5;
+    width: 100vw;
+    height: 100vw;
+    padding-top: 100px;
+}
+
+.page{
+    width: 697px;
+    height: 1264px;
+    margin: auto;
+    background: #FFFFFF;
+}
+
+.header__page{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    width: 697px;
+    height: 49px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    padding-left: 44px;
+    padding-top: 8px;
+    padding-right: 31px;
+
+}
+
+.header__page-title{
+    width: 63px;
+    font-size: 30px;
+    line-height: 32px;
+    color: #777777;
+    float:left;
+
+}
+
+.header__page-subtitle{
+    width: 38px;
+    float: left;
+    font-size: 10px;
+    line-height: 11px;
+    color: #AAAAAA;
+    margin-top: 5px;
+
+}
+
+.header__page__menu-icon{
+    float: right;
+    margin-top: 10px;
+}   
+
+.page__carrossel{
+    width: 608px;
+    height: 259px;
+    margin: auto;
+    margin-top: 20px;
+    background: url(./assets/image-sala.png);
+}
+
+.page__carrossel__elipse-left{
+    width: 39px;
+    height: 39px;
+    border-radius: 39px;
+    background: rgba(141, 141, 141, 0.62);
+    padding-top: 10px;
+    padding-left: 14px;
+    float: left;
+    margin-top: 110px;
+    margin-left: 12px;
+}
+.page__carrossel__elipse-right{
+    width: 39px;
+    height: 39px;
+    border-radius: 39px;
+    background: rgba(141, 141, 141, 0.62);
+    padding-top: 10px;
+    padding-left: 14px;
+    float: right;
+    margin-top: 110px;
+    margin-right: 12px;
+}   
+
+.page__destaque{
+    margin-top: 37px;
+    margin-left: 44px;
+    margin-right: 45px;
+    margin-bottom: 0px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.page__destaque__left{
+    width: 256px;
+    height: 242px;
+    background: #EEEEEE;
+    float: left;
+}
+
+.page__destaque__right{
+    width: 256px;
+    height: 242px;
+    background: #EEEEEE;
+    float: right;
+}
+
+.page__destaque__image{
+    width: 256px;
+    height: 144px;
+}
+.page__destaque__pricing{
+    margin-left: 12px;
+    margin-right: 13px;
+    padding-top: 9px;
+}
+
+.page__destaque__price{
+    width: 86px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    color: #888888;
+    float: left;
+}
+
+.page__destaque__rectangle{
+    width: 56px;
+    height: 21px;
+    border-radius: 10.5px;
+    background: #51D275;
+    float:right;
+}
+
+.page__destaque__tag{
+    font-size: 20px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.page__destaque__text{
+    width: 231px;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: justify;
+    color: #555555;
+    margin-top: 32px;
+    margin-left: 12px;
+    margin-right: 13px;
+}
+
+.page__destaque__right .page__destaque__rectangle{
+    background: #DC9730;    
+}
+
