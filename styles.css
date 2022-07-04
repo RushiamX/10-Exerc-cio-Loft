@@ -183,4 +183,39 @@ margin-top: 13px;
 
 }
 
+footer{
+width: 697px;
+height: 243px;
+background: #333333;
+display: flex;
+justify-content: space-between;
+margin-top: 57px;
+padding: 0px 48px;
 
+font-size: 13px;
+line-height: 30px;
+text-align: justify;
+color: #FFFFFF;
+
+}
+
+.footer__map{
+    width: 252px;
+    height: 163px;
+    border-radius: 19px;
+    margin-top: 40px;
+}
+
+.footer__text{
+    margin-top: 49px;
+    width: 180px;
+    height: 95px;
+}
+
+.footer__group__icon{
+    display: flex;
+}
+
+.footer__icon{
+    margin-right: 17px;
+}
